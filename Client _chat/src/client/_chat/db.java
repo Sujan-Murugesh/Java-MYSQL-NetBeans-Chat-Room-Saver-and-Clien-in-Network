@@ -25,9 +25,9 @@ public class db {
      
      try {
          Class.forName("com.mysql.jdbc.Driver");
-         con = DriverManager.getConnection("jdbc:mysql://169.254.16.66:3306/netme","root",""); 
+         con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/netme","root",""); 
          
-         // 169.254.16.66:3306  Saver ip and port number
+         // 127.0.0.1:3306  Saver ip and port number
          //netme    database name
          //root     user name
          // password is empty
